@@ -14,8 +14,8 @@ Instantly display the account holder's name, account number, and current formatt
 The system keeps track of the 5 most recent transactions in memory and can display them as a mini statement. 
 Persistent Data Storage: Every transaction is automatically appended to a transactions.csv file. When the application starts, it reads this file to reload previous account details and transactions. 
 
-🛠️ Technical DetailsLanguage: 
+# 🛠️ Technical DetailsLanguage: 
 ## C++  Libraries Used: 
-<iostream>, <fstream> (for file handling), <string>, <cstdlib>, and <cstdio>.  
+ <iostream>, <fstream> (for file handling), <string>, <cstdlib>, and <cstdio>.  
 ## Data Format: 
 Stores records in a comma-separated format containing the account name, account number, balance, and transaction details.
