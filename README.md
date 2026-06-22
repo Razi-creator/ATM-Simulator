@@ -16,6 +16,6 @@ Persistent Data Storage: Every transaction is automatically appended to a transa
 
 # 🛠️ Technical DetailsLanguage: 
 ## C++  Libraries Used: 
- <iostream>, <fstream> (for file handling), <string>, <cstdlib>, and <cstdio>.  
+iostream, fstream (for file handling), string, cstdlib, and cstdio.  
 ## Data Format: 
 Stores records in a comma-separated format containing the account name, account number, balance, and transaction details.
